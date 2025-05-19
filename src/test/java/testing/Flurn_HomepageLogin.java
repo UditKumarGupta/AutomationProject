@@ -74,12 +74,12 @@ public class Flurn_HomepageLogin {
 		driver.findElement(By.xpath("//li[contains(text(),'Dubai')]")).click();
 	
 		/* Calendar event*/
-		driver.findElement(By.id("checkout")).click();
+	/*	driver.findElement(By.id("checkout")).click();
 	 	WebDriverWait wait = new WebDriverWait(driver,5);
 	 	wait.until(ExpectedConditions.visibilityOf(driver.findElement(By.xpath("/html/body/div[5]/div[1]/table/thead/tr[1]/th[2]"))));
 	 	 
 	 	String MonthYear=driver.findElement(By.xpath("/html/body/div[5]/div[1]/table/thead/tr[1]/th[2]")).getText();
-	 	System.out.println("Date is "+MonthYear);
+	 	System.out.println("Date is "+MonthYear);*/
 		
 		
 		/*driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
@@ -88,13 +88,13 @@ public class Flurn_HomepageLogin {
 
 	}
 
-	@AfterTest
+	/*@AfterTest
 	public void closeBrowser() {
 
 		driver.quit(); // Close the browser.
 		reportUtils.flushReport();
 
-	}
+	}*/
 }*/
 
 package testing;
