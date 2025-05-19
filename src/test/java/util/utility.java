@@ -7,7 +7,7 @@ import org.openqa.selenium.ie.InternetExplorerDriver;
 public class utility {
 	static public WebDriver getBrowser(String BrowserName) {
 		if (BrowserName.equals("chrome")) {
-			System.setProperty("webdriver.chrome.driver", "src/test/resources/driver/chromedriver.exe");
+			System.setProperty("webdriver.chrome.driver", "src/test/resources/driver/chromedriver");
 			return new ChromeDriver();
 		}
 		if (BrowserName.equals("ie")) {
